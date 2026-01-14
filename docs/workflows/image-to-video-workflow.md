@@ -9,6 +9,9 @@
 ## Workflow Overview
 
 ```
+Step 0: เก็บ Product Details จากหน้าร้าน
+└─ คัดลอก Title / Bullet / Description / วิธีใช้ / สเปก → ใส่ชีต Product Details
+
 Step 1: เตรียม Reference Images
 ├─ รูปนางแบด Character Sheet (หลายมุม)
 └─ รูปสินค้า Product Photo (คมชัด)
@@ -28,6 +31,13 @@ Step 4: รวมวิดีโอใน SceneBuilder
 ```
 
 ---
+
+## Step 0: เก็บ Product Details จากหน้าร้าน (แนะนำมาก)
+
+ก่อนเขียนบทพูด แนะนำให้ดึง “ข้อมูลจริง” จากหน้าสินค้ามาเป็น reference เพื่อกันพูดเกินจริง/ผิดสเปก:
+
+- ใช้ชีตนี้: `docs/templates/product-details-sheet.md`
+- Workflow การทำ: `docs/workflows/product-description-to-dialogue-workflow.md`
 
 ## Step 1: เตรียม Reference Images
 
@@ -256,6 +266,7 @@ Animate this image into an 8-second vertical video with Thai dialogue.
 [DIALOGUE - Thai]
 Woman speaks naturally in Thai:
 "[1–2 short Thai sentences]"
+อิงข้อมูลจริงจาก `docs/templates/product-details-sheet.md` เท่านั้น (ชื่อสินค้า/สเปก/วิธีใช้/จุดเด่น) และหลีกเลี่ยงการเคลมเกินจริง
 
 [MOVEMENT DIRECTIONS]
 The character should make subtle natural movements:
@@ -291,6 +302,7 @@ Animate this image (captured last frame from Scene 1) into an 8-second vertical 
 [DIALOGUE - Thai]
 Woman speaks naturally in Thai:
 "[1–2 short Thai sentences]"
+ต่อเนื่องจาก Scene 1 และอิง `docs/templates/product-details-sheet.md` เท่านั้น (ไม่เพิ่มข้อมูล/เคลมใหม่)
 
 [SAME CHARACTER ANIMATION - CRITICAL]
 The EXACT SAME person from Scene 1 with identical appearance.

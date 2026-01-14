@@ -393,7 +393,14 @@ Product fits seamlessly into home.
 - ถ้าไม่รู้จะเขียน prompt ยังไง ให้ขอความช่วยเหลือจาก Gemini
 - Prompt: "Help me write a Veo prompt for [product] targeting Thai audience"
 
-### 3. Focus on Transformation ไม่ใช่แค่ Product
+### 3. อิงรายละเอียดจากหน้าร้าน (กันเคลมลอย/พูดผิดสเปก)
+
+ก่อนเขียนบทพูด/voiceover ให้ดึงข้อมูลจากหน้าเว็บขายของมาเป็น reference แล้วใช้ข้อมูลนั้นเป็น “กรอบ” สำหรับบทพูด:
+
+- Workflow: `docs/workflows/product-description-to-dialogue-workflow.md`
+- Template: `docs/templates/product-details-sheet.md`
+
+### 4. Focus on Transformation ไม่ใช่แค่ Product
 
 ตามที่ผู้เชี่ยวชาญแนะนำ:
 > "A good Veo prompt doesn't show off the product. It shows off the transformation."

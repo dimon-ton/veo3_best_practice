@@ -52,16 +52,21 @@ When generating videos with Veo3, follow these prompting guidelines:
    - Specify camera angles: "close-up shot", "wide angle", "product rotation"
    - Mention movement: "slow motion", "360 degree view", "zoom in on features"
 
-3. **Define Style & Tone**
+3. **Ground Any Dialogue in Listing Facts**
+   - Use the shopping page description/specs as the single source of truth
+   - Workflow: `docs/workflows/product-description-to-dialogue-workflow.md`
+   - Template: `docs/templates/product-details-sheet.md`
+
+4. **Define Style & Tone**
    - "UGC-style" or "authentic feel" for better engagement
    - "Cinematic quality" for premium products
    - "Casual and friendly" for relatable content
 
-4. **Set Duration**
+5. **Set Duration**
    - 20-60 seconds recommended for product videos
    - 9-15 seconds for optimal engagement in ads
 
-5. **Example Prompt Structure**
+6. **Example Prompt Structure**
    ```
    "A 30-second vertical TikTok video (9:16) showcasing [PRODUCT NAME].
    Professional studio lighting with soft shadows. Close-up shots showing

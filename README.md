@@ -19,11 +19,17 @@ Step-by-step tutorials to get things done.
 - **[Image-to-Video Workflow](docs/workflows/image-to-video-workflow.md)**  
   *Learn how to use "Canvas Prompting" to turn product photos into consistent 16-second videos.*
 
+- **[Product Description → Dialogue Workflow](docs/workflows/product-description-to-dialogue-workflow.md)**  
+  *Extract product details from shopping pages and use them to write grounded Thai dialogue for video prompts.*
+
 ### 📋 Templates (`docs/templates/`)
 Ready-to-use resources to speed up your process.
 
 - **[Two-Scene Prompts](docs/templates/two-scene-prompts.md)**  
   *Copy-paste prompt templates optimized for 16-second videos (Product Reveal, Problem/Solution, Before/After).*
+
+- **[Product Details Sheet](docs/templates/product-details-sheet.md)**  
+  *Copy/paste a shopping page description and structure it into facts you can safely use in dialogue.*
 
 ---
 

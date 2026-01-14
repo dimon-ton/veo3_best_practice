@@ -29,6 +29,22 @@ Scene 2 (8 seconds) → Generated separately → Saved
 Combine in Flow SceneBuilder → Export as single 16-second MP4
 ```
 
+### Optional: Grounded Thai Dialogue (recommended)
+
+If you want speaking dialogue, ground it in real product details from the shopping page:
+
+- Workflow: `docs/workflows/product-description-to-dialogue-workflow.md`
+- Sheet: `docs/templates/product-details-sheet.md`
+
+Add a block like this to each scene prompt:
+
+```
+[DIALOGUE - Thai]
+Woman speaks naturally in Thai:
+"[1–2 short Thai sentences grounded in product facts]"
+Lips sync naturally to Thai dialogue.
+```
+
 ---
 
 ## Template 1: Product Introduction + Action
